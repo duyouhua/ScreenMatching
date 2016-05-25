@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.walid.screen.widget.SMScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	<com.walid.screen.widget.SMLinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+		<com.walid.screen.widget.SMLinearLayout
+				android:id="@+id/llTextView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				app:SMLPHeight="150"
+				app:SMLPMarginTop="20"
+				android:gravity="center"
+				android:background="@android:color/white">
+
+			<com.walid.screen.widget.SMTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:SMTextViewSize="30"
+					app:SMTextViewBold="true"
+					android:text="30px 加粗"/>
+
+			<com.walid.screen.widget.SMTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:SMTextViewSize="40"
+					app:SMTextViewBold="false"
+					android:text="40px 不加粗"/>
+
+		</com.walid.screen.widget.SMLinearLayout>
+
+		<com.walid.screen.widget.SMLinearLayout
+				android:id="@+id/llButton"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="horizontal"
+				app:SMLPHeight="150"
+				app:SMLPMarginTop="20"
+				android:background="@android:color/white">
+
+			<com.walid.screen.widget.SMButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:SMTextViewSize="50"
+					app:SMTextViewBold="true"
+					android:text="Button 50px 加粗"/>
+
+			<com.walid.screen.widget.SMButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:SMTextViewSize="25"
+					app:SMTextViewBold="false"
+					android:text="Button 25px 不加粗"/>
+
+		</com.walid.screen.widget.SMLinearLayout>
+
+		<com.walid.screen.widget.SMLinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:SMLPHeight="300"
+				app:SMLPMarginTop="20"
+				android:background="@android:color/holo_green_light"/>
+
+		<com.walid.screen.widget.SMRelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				app:SMLPWidth="375"
+				app:SMLPMarginTop="20"
+				android:background="@android:color/holo_blue_light"/>
+
+		<com.walid.screen.widget.SMImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				app:SMLPWidth="375"
+				app:SMLPHeight="375"
+				android:background="@android:color/black"/>
+
+		<com.walid.screen.widget.SMEdittext
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				app:SMLPWidth="375"
+				app:SMLPHeight="375"
+				app:SMEditTextSize="40"
+				app:SMEditTextBold="true"
+				android:hint="EditText 宽高 ：375 size = 40 加粗"
+				android:background="@android:color/holo_red_light"/>
+	</com.walid.screen.widget.SMLinearLayout>
+
+</com.walid.screen.widget.SMScrollView>

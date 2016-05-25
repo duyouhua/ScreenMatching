@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="SMTextView">
+		<attr name="SMTextViewSize" format="float"/>
+		<attr name="SMTextViewBold" format="boolean"/>
+		<attr name="SMTextViewIncludeFontPadding" format="boolean"/>
+	</declare-styleable>
+
+	<declare-styleable name="SMButton">
+		<attr name="SMButtonSize" format="float"/>
+		<attr name="SMButtonBold" format="boolean"/>
+	</declare-styleable>
+
+	<declare-styleable name="SMEdittext">
+		<attr name="SMEditTextSize" format="float"/>
+		<attr name="SMEditTextBold" format="boolean"/>
+	</declare-styleable>
+
+	<declare-styleable name="SMLayoutParams">
+		<attr name="SMLPMarginTop" format="integer"/>
+		<attr name="SMLPMarginBottom" format="integer"/>
+		<attr name="SMLPMarginLeft" format="integer"/>
+		<attr name="SMLPMarginRight" format="integer"/>
+		<attr name="SMLPPaddingTop" format="integer"/>
+		<attr name="SMLPPaddingBottom" format="integer"/>
+		<attr name="SMLPPaddingLeft" format="integer"/>
+		<attr name="SMLPPaddingRight" format="integer"/>
+		<attr name="SMLPHeight" format="integer"/>
+		<attr name="SMLPWidth" format="integer"/>
+		<attr name="SMLPTemplateHeight" format="integer"/>
+		<attr name="SMLPTemplateWidth" format="integer"/>
+		<attr name="SMLPMinWidth" format="integer"/>
+		<attr name="SMLPMinHeight" format="integer"/>
+	</declare-styleable>
+
+</resources>
